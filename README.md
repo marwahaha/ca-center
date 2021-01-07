@@ -13,7 +13,7 @@ This surprised me. It turns out that half of California's 38 million people live
 ![Map of population distribution of California by latitude and longitude](./ca_pop_dist.png)
 
 
-If you're curious, check out [the full analysis](https://nbviewer.jupyter.org/github/marwahaha/ca-center/blob/main/data_processing.ipynb).
+If you're curious, check out [the full analysis](https://nbviewer.jupyter.org/github/marwahaha/ca-center/blob/main/data_processing.ipynb). I'm also working on a [map for every state](https://nbviewer.jupyter.org/github/marwahaha/ca-center/blob/main/multi_state.ipynb).
 
 The data is from [OpenDataSoft](https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/table/?refine.state=CA
 ) and [World Population Review](https://worldpopulationreview.com/zips/california).
