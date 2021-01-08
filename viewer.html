@@ -8,7 +8,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.9.0/viewer.min.js"></script>
 </head>
 
-<body style="background-color: lemonchiffon;">
+<body style="background-color: firebrick;">
   <div>
     <ul id="images" style="display: none;">
       <li><img src='states/alabama.png' alt='alabama'></li>
@@ -64,8 +64,14 @@
     </ul>
   </div>
   <script>
-    gallery = new Viewer(document.getElementById('images'));
-    gallery.show()
+    images = document.getElementById('images');
+    images.addEventListener('hide', function () {
+      event.preventDefault();
+    });
+
+    gallery = new Viewer(images);
+    gallery.show();
+    document.getElementsByClassName('viewer-button viewer-close')[0].style.display = 'none';
   </script>
 </body>
 
